@@ -93,3 +93,13 @@ clearButton.addEventListener('click', ()=>{
     updateDisplay('0');
 })
 
+const backspaceButton = document.querySelector('.back');
+
+function backspace(){
+    if(firstNum !== ''){
+       firstNum = firstNum.slice(0, firstNum.length - 1);
+        updateDisplay();
+    }
+};
+
+backspaceButton.addEventListener('click', backspace);

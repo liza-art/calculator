@@ -1,0 +1,36 @@
+.calculator {
+    display: grid;
+    background-color: orangered;
+    grid-template-columns: 60px 60px 60px;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.display{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: right;
+    padding-top: 10px;
+
+}
+
+button{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 3px 6px;
+}
+
+.cover{
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-rows: 6px;
+    width: 180px;
+    place-content: center;
+    border: solid brown 2px;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
